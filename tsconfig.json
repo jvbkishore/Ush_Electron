@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["node_modules/*","src/*"] // Path alias for easier imports
+    },
+    "types": ["node", "electron", "react", "react-dom"], // Include type definitions
+    "allowSyntheticDefaultImports": true, // Allow default imports for modules without default exports
+    "moduleResolution": "node" // Use Node.js module resolution
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/global.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
