@@ -48,3 +48,13 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
+##steps to setup local
+1. npm install (in root folder location) after taking clone
+2. Download ffmpeg-release-essentials from https://www.gyan.dev/ffmpeg/builds/#release-builds
+3. Extract and place bin folder from it into C:/ffmpeg and add C:/ffmpeg/bin into Environment variable - path variable
+4. run cmd and exectue ffmpeg --version to verify the installation of ffmpeg
+5. take and place bin in whisper.cpp
+5. Downlaod  ggml-base.en.bin (148 mb) model from https://huggingface.co/ggerganov/whisper.cpp/tree/main and place it in 
