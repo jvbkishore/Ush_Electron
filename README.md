@@ -56,5 +56,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 2. Download ffmpeg-release-essentials from https://www.gyan.dev/ffmpeg/builds/#release-builds
 3. Extract and place bin folder from it into C:/ffmpeg and add C:/ffmpeg/bin into Environment variable - path variable
 4. run cmd and exectue ffmpeg --version to verify the installation of ffmpeg
-5. take and place bin in whisper.cpp
-5. Downlaod  ggml-base.en.bin (148 mb) model from https://huggingface.co/ggerganov/whisper.cpp/tree/main and place it in 
+5. take and place whisper bin folder  in whisper.cpp (its build of whisper code)
+6. Downlaod  ggml-base.en.bin (148 mb) model from https://huggingface.co/ggerganov/whisper.cpp/tree/main and place it in ../whisper.cpp/models (main.ts - line 30/31)
+  
